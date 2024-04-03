@@ -1,0 +1,82 @@
+body{
+    background-size: cover;
+    font-family: "Kode Mono", monospace;
+}
+
+.heading
+{
+    width: 70%;
+    background-color: #83b4f3;
+    margin: 0%;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.heading h3{
+    display: inline;
+   padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.heading button{
+    float: right;
+    background-color:#79b1fa;
+    border:1px solid black ;
+    border-radius: 5px;
+    font-size: medium;
+    margin-right: 20px;
+    color: aliceblue;
+}
+
+#start ,#status, #restart
+{
+font-size: 22px;
+}
+
+.modal-dialog
+{
+    width: 70%;
+}
+.modal-body
+{
+    text-align: left;
+    font-size: 20px;
+}
+h4
+{
+   background-color: grey;
+   color:white;
+   line-height: 2;
+}
+canvas 
+  {
+      border:3px solid white;
+      border-radius: 20px;
+      box-shadow:  5px 5px 5px white;
+  }
+  
+  #copyright_footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    line-height: 2;
+    text-align: center;
+    background-color: aliceblue;
+    color: black;
+}
+
+.ping_pong_donut{
+    width: 20%;
+    border-radius: 18px;
+}
+
+#start{
+    background-color: #333436;
+    color: azure;
+    border-radius: 8px;
+    font-size: 20px;
+    width: 130px;
+    
+}
